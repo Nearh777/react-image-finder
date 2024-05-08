@@ -1,11 +1,11 @@
 import React from 'react';
-// import './Searchbar.scss'
+import './Searchbar.scss'
 
 export const Searchbar = () => {
   return (
-    <header className="searchbar">
+    <header className="Searchbar">
   <form className="form">
-    <button type="submit" className="button">
+    <button type="submit" className="form-button">
       <span className="button-label">Search</span>
     </button>
 
